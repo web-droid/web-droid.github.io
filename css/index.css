@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+	margin: 0 ;
+	padding: 0 ;
+	font-family: 'Roboto', sans-serif;	
+}
+
+h1 {
+	margin: 0;
+}
+
+#header {
+	background: url('../images/Resume_Portfolio.png') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 50em;	
+	background-attachment: fixed;
+}
+
+#header h1{
+	color: white;
+	padding-top: 3em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 7em;
+	
+}
+
+#header h2{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2em;
+}
+#header h5{
+	color: white;
+	font-size: 1em;
+}
+
+#what-we-do {
+	height: 40em;
+	margin-top: 0;
+
+}
+
+#what-we-do p{
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 6em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.5em;
+}
+
+#our-work{
+	background: url('../images/our-work-bg.jpg') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 70em;	
+	background-attachment: fixed;
+}
+
+#our-work p{
+	text-align: right;
+	color: #ffffffcc;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 75%;
+	padding-right: 5%;
+	padding-top: 15%;
+	font-size: 1.5em;
+}
+#our-work p a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+#our-work p a:hover{
+	background: #ffffff55;
+}
+
+#our-team{
+	background: url('../images/our-team-bg.jpg') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 70em;	
+	background-attachment: fixed;
+}
+
+#our-team p{
+	text-align: left;
+	color: #ffffffcc;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 5%;
+	padding-right: 75%;
+	padding-top: 40%;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+#our-team p a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+#our-team p a:hover{
+	background: #ffffff55;
+}
+
+#our-skills{
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url('../images/our-skills-bg.png') no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 70em;	
+	background-attachment: fixed;
+}
+
+#our-skills p{
+	text-align: right;
+	color: #ffffffcc;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 75%;
+	padding-right: 5%;
+	padding-top: 40%;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+#our-skills p a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+#our-skills p a:hover{
+	background: #ffffff55;
+}
+
+#footer{
+	background: #e65353;
+	width: 100%;
+	height: 20em;
+}
+
+
+
+.bottom-item{
+	text-decoration: none;
+	color: #ffffffcc;
+	padding: 2em;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
